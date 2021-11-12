@@ -1,5 +1,15 @@
-.table1 {
-    border-top: 4px;
-    border-style: dashed;
+.hname, .hdate {
+    border-top: 2px;
+    border-top-style: dashed;
     border-top-color: grey;
+    border-bottom: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: grey;
+}
+caption, .hname {
+    text-align: left;
+}
+.hdate {
+    text-align: right;
+    font-style: italic;
 }
