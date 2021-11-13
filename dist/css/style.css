@@ -1,7 +1,4 @@
-.hname, .hdate {
-    border-top: 2px;
-    border-top-style: dashed;
-    border-top-color: grey;
+.hname, .hdate, caption, .table3 {
     border-bottom: 2px;
     border-bottom-style: dashed;
     border-bottom-color: grey;
@@ -12,4 +9,9 @@ caption, .hname {
 .hdate {
     text-align: right;
     font-style: italic;
+}
+.table2 {
+    width: 80%;
+    background-color: khaki;
+
 }
